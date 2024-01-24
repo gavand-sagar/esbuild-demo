@@ -1,0 +1,16 @@
+{
+  "name": "esbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --minify --outfile=dist/bundle.js",
+    "start": "esbuild src/index.ts --bundle --minify --outfile=dist/bundle.js && serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.12"
+  }
+}
